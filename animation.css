@@ -1,0 +1,12 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: forestgreen;
+    animation: move 3s infinite;
+    text-align: center;
+}
+@keyframes move{
+    from{background-color: black;}
+    to{background-color: white;}
+
+}
