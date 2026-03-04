@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Postions in CSS</title>
+    <style>
+        .Static{
+            background-color: chartreuse;
+            width: 100px;
+            height: 100px;
+            position: static;
+        }
+        .fixed{
+            background-color: aquamarine;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+        .relative{
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 30px;
+            left: 20px;
+        }
+        .parent{
+            position:relative;
+            width: 200px;
+            height: 200px;
+            background-color: darkturquoise;
+
+        }
+        .child{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 20px;
+            left: 20px;
+            background-color: darkorange;
+            text-align: center;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            background-color: crimson;
+            
+           
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Static">
+        This is Static
+    </div>
+    <div class="fixed">
+        This is fixed
+    </div>
+    <div class="relative">
+        This is relative
+    </div>
+    <div class="parent">
+        This is the parent...
+        <div class="child">
+            ... And this is the child
+        </div>
+    </div>
+    <div class="sticky">
+        This is sticky but its not glue.
+    </div>
+</body>
+</html>
