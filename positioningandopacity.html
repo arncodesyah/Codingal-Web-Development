@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Opacity and Postioning </title>
+    <style>
+        body{
+            background-color: lightgreen;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .title{
+            text-align: center;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .allabt{
+            
+            height: 100px;
+            background-color: cornflowerblue;
+            position:relative 30px 30px;
+        }
+        .models{
+            background-color: palevioletred;
+            position: absolute 60px 30px;
+        }
+        img{
+            opacity: 0.5;
+            transition: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        The new Macbook Neo
+    </div>
+    <div class="allabt">
+        The Macbook neo is Apples cheapest Macbook (Starting at 699€ or 599€ with student discount.)
+        It has the same aluminium and 13'' liqid retna display as the Mac Air and Pro. It has the A18 Pro chip inside. It has two USB Ports. It comes in four colors: Blue, Pink, Green and Silver
+    </div>
+    <div class="models">
+        The MacBook Neo comes in two models: 256GB storage and no touch id and 512GB storage with touch id.
+    </div>
+    <a href="https://www.apple.com/de/macbook-neo/">See more</a>
+    <div class="img">
+        <img src="data:image/jpeg;base64,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" alt="Mac Neo image">
+
+    </div>
+</body>
+</html>
