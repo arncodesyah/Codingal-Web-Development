@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<head>
+    <title>www.ksaa.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: springgreen;
+        }
+
+        .navbar {
+            background-color: red;
+            border-width: 2px;
+            border-radius: 20px;
+
+        }
+
+        .navbar a:hover {
+            background-color: orange;
+            border-radius: 20px
+        }
+
+        img {
+            width: 100%;
+            height: 150px;
+            left: 400px;
+        }
+
+        .abt {
+            background-color: crimson;
+            color: whitesmoke;
+            border-radius: 20px;
+            font-size: small;
+            margin: 30px;
+        }
+
+                
+        .project.section{
+            padding: 50px;
+        }
+        .section-title{
+            font-size: larger;
+        }
+        .card{
+            transition: 0.5s;
+            background-color: rgb(123, 173, 190);
+            border-radius: 30px;
+        }
+        .btn{
+            background-color: blue;
+            border-radius: 30px;
+        }
+        .card:hover{
+            transform: translateY(25px)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Spacecraft</a>
+        <a href="#">Missions</a>
+        <a href="#">Kerbollink</a>
+        <a href="#">Bases and Stations</a>
+        <a href="#">Gallery</a>
+
+    </div>
+    <div class="banner"><img
+            src="data:image/jpeg;base64,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"
+            alt="KSAA Logo"></div>
+    <div class="abt">
+        <h1><u>About us</u></h1>
+        <p>Kryptic Space and Areonautics(KSAA) is a private aerospace company focused on advancing spaceflight
+            through reusable rockets, innovative spacecraft, and orbital infrastructure.
+            Our flagship project, KerbolLink, is a satellite internet network designed to connect Kerbin,
+            spacecraft, and future colonies across the Kerbol System.
+            Driven by rapid innovation and ambitious exploration, KSAA is building the technology that will make a
+            connected, spacefaring future possible.</p>
+    </div>
+    <div class="project-section">
+        <div class="container">
+            <h1 class="section-title">Our Projects</h1>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img
+                            src="ChatGPT Image Jun 10, 2026, 04_12_15 PM.png">
+                        <div class="card-body">
+                            <h3 class="card-title">Kerbollink</h3>
+                            <p class="card-text">KSAA's satellite communications constellation, providing reliable coverage and connectivity across Kerbin and supporting missions throughout the Kerbol System. KerbolLink is the backbone of KSAA's future space infrastructure.</p>
+                            <button class="btn btn-project">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="container">
+                        <!-- Project 2 -->
+
+                        <div class="col-md-4">
+                            <div class="card shadow">
+                                <img src="ChatGPT Image Jun 10, 2026, 04_12_15 P22222222222222M.png">
+                                <div class="card-body">
+                                    <h3 class="card-title">Rockets</h3>
+                                    <p class="card-text">KSAA develops reusable and high-performance rockets designed for satellite deployment, crew transport, cargo delivery, and deep-space exploration. Our launch systems are built to make access to space more efficient and affordable.</p>
+                                    <button class="btn btn-project">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="col-md-4">
+                            <div class="card shadow">
+                                <img
+                                    src="ChatGPT Image Jun 10, 2026, 04_12_15 P333333333333333333333333333333333333333333333333M.png">
+                                <div class="card-body">
+                                    <h3 class="card-title">Bases</h3>
+                                    <p class="card-text">KSAA operates a growing network of launch sites, tracking stations, research centers, and space habitats. These facilities support mission operations, spacecraft development, and the expansion of Kerbal presence beyond Kerbin.</p>
+                                    <button class="btn btn-project">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+</body>
+
+</html>
